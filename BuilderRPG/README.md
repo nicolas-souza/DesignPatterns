@@ -2,11 +2,9 @@ Seguindo os estudos sobre Design Patterns, hoje vou escrever um pouco sobre Buil
 
 ## Objetivo do padrão 
 
->[!info]
 >Builder é um padrão criacional que nos auxilia na criação de objetos complexos, passo a passo, permitindo a produção de diferentes tipos e representações de um objeto usando um mesmo código de construção
 
 ## Qual problema ele resolve?
-
 
 Imagine um objeto complexo com inúmeros campos, com objetos agregados, e que sua inicialização necessite da realização de inúmeros passos e interações. Poderíamos deixar que o cliente que usará nossa classe, fique responsável por implementar os passos, mas estaríamos assumindo um risco muito grande de que os passos não sejam respeitados, criando objetos com comportamentos errôneos.
 
@@ -20,7 +18,6 @@ Nos materiais que usei para estudar, os exemplos geralmente giram em torno de ca
 
 Vamos pensar em um jogo de RPG, onde os jogadores podem montar o seu personagem. Cada personagem será construído de uma forma, com atributos e comportamentos diferentes um dos outros. Além disso, algo comum em alguns RPG's é a possibilidade de combinarmos tipos, por exemplo, posso criar um Mago Bárbaro e ter inúmeras combinações...
 
->[!warning]
 >Farei inúmeras limitações, o objetivo aqui é explicar o padrão builder e não criar um jogo!
 
 Para começar, vamos criar nossa classe personagem, será ela que terá n construções possíveis.
