@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderRPG", "BuilderRPG\BuilderRPG.csproj", "{7A8C66C3-252C-4954-841D-B466DFCDAE53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeEnemy", "PrototypeEnemy\PrototypeEnemy.csproj", "{B71D08BD-269C-428D-B519-525B7D91574D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonFootball", "SingletonFootball\SingletonFootball.csproj", "{0685933A-4468-4C5D-86A1-01FB158F3F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{7A8C66C3-252C-4954-841D-B466DFCDAE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8C66C3-252C-4954-841D-B466DFCDAE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8C66C3-252C-4954-841D-B466DFCDAE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71D08BD-269C-428D-B519-525B7D91574D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71D08BD-269C-428D-B519-525B7D91574D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71D08BD-269C-428D-B519-525B7D91574D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71D08BD-269C-428D-B519-525B7D91574D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0685933A-4468-4C5D-86A1-01FB158F3F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0685933A-4468-4C5D-86A1-01FB158F3F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0685933A-4468-4C5D-86A1-01FB158F3F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0685933A-4468-4C5D-86A1-01FB158F3F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

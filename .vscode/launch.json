@@ -5,10 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "BuilderRPG",
+            "name": "Builder RPG",
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/BuilderRPG/BuilderRPG.csproj"
+        },
+        {
+            "name": "Prototype Enemy",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/PrototypeEnemy/PrototypeEnemy.csproj"
+        },
+        {
+            "name": "Singleton Football",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/SingletonFootball/SingletonFootball.csproj"
         },
     ]
 }
