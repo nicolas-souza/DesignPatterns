@@ -22,5 +22,11 @@
             "request": "launch",
             "projectPath": "${workspaceFolder}/SingletonFootball/SingletonFootball.csproj"
         },
+        {
+            "name": "Adapter Player",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/AdapterPlayer/AdapterPlayer.csproj"
+        },
     ]
 }
