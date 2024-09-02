@@ -28,5 +28,11 @@
             "request": "launch",
             "projectPath": "${workspaceFolder}/AdapterPlayer/AdapterPlayer.csproj"
         },
+        {
+            "name": "Bridge Payment",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/BridgePayment/BridgePayment.csproj"
+        },
     ]
 }
